@@ -11,14 +11,6 @@ const allowedOrigins = [
   "http://localhost:3000",                // for local React dev
   "https://pyqhub-8-backend.onrender.com",  // your Render backend URL
   "https://pyqhub-rduq.vercel.app"         // your frontend deployed URL (no trailing slash)
-=======
-  const allowedOrigins = [
-  "http://localhost:3000",               // for local React dev
-  "https://pyqhub-8-backend.onrender.com",  // your Render backend URL 
-  "https://https://pyqhub-rduq.vercel.app/"  // your frontend deployed URL 
-];
-
->>>>>>> db08615f0a25535155e5141ffe1d57c36ece035e
 ];
 
 app.use(cors({
