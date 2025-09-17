@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 
 // CORS configuration
 const allowedOrigins = [
-<<<<<<< HEAD
+
   "http://localhost:3000",                // for local React dev
   "https://pyqhub-8-backend.onrender.com",  // your Render backend URL
   "https://pyqhub-rduq.vercel.app"         // your frontend deployed URL (no trailing slash)
