@@ -11,7 +11,7 @@ const allowedOrigins = [
   const allowedOrigins = [
   "http://localhost:3000",               // for local React dev
   "https://pyqhub-8-backend.onrender.com",  // your Render backend URL 
-  "https://your-frontend-domain.vercel.app"  // your frontend deployed URL 
+  "https://https://pyqhub-rduq.vercel.app/"  // your frontend deployed URL 
 ];
 
 ];
