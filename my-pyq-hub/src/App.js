@@ -9,7 +9,7 @@ function App() {
   const fetchSubjects = async (sem) => {
     try {
       setError(null);
-      const res = await fetch(`http://localhost:5000/api/semesters/${sem}/subjects`);
+      const res = await fetch(`https://pyqhub-8-backend.onrender.com`);
       if (!res.ok) throw new Error("Failed to fetch subjects");
       const data = await res.json();
       setSubjects(data);
